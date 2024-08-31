@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Blog Sayfası</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bu bir blog sayfasıdır">
+  <meta name="keyword" content="blog">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Mr Dafoe" rel="stylesheet"> -->
+  <link href="../src/css/index.css" rel="stylesheet">
+  <link href="../src/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="../src/index.js"></script>
+</head>
+<body>
+  <div class="container pt-4">
+    <h3 class="color-green d-none d-sm-block"><strong>YOUR BLOG </strong><span class="dafoe">Name</span></h3>
+    <nav class="navbar navbar-expand-sm navbar-color p-0">
+      <h3 class="color-green d-sm-none"><strong>YOUR BLOG </strong><span class="dafoe">Name</span></h3>
+      <button aria-label="btn-collapse" class="navbar-toggler" data-target="#collapsibleNavbar" data-toggle="collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item py-2 mx-1">
+            <a class="nav-link p-0 mx-2" href="#"><strong>Home</strong></a>
+          </li>
+          <li class="nav-item py-2 mx-1">
+            <a class="nav-link p-0 mx-2" href="#"><strong>About</strong></a>
+          </li>
+          <li class="nav-item py-2 mx-1">
+            <a class="nav-link p-0 mx-2" href="#"><strong>Features</strong></a>
+          </li>
+          <li class="nav-item py-2 mx-1">
+            <a class="nav-link p-0 mx-2" href="#"><strong>Categories</strong></a>
+          </li>
+          <li class="nav-item py-2 mx-1">
+            <a class="nav-link p-0 mx-2" href="#"><strong>Contact</strong></a>
+          </li>
+          <li class="nav-item mx-2">
+            <form class="form-inline search px-1 my-2 w-100">
+              <label class="w-100">
+                <i class="fa fa-search px-1"></i>
+                <input aria-label="Search" class="search border-0 text-center" placeholder="Search" type="search" />
+              </label>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="banner w-100">
+    <div class="transparent">
+      <div class="position-relative">
+        <div class="slider-container pt-4">
+          <div class="slides d-flex mt-4 pt-4">
+            <div>
+              <img alt="Image 1" class="rounded-circle mr-4" src="../src/img/foto-1.jpeg" title="Image 1" />
+              <p class="text-center mr-4 pt-2">Your title</p>
+            </div>
+            <div>
+              <img alt="Image 2" class="rounded-circle mx-4" src="../src/img/foto-2.jpeg" title="Image 2" />
+              <p class="text-center pt-2">Your title</p>
+            </div>
+            <div>
+              <img alt="Image 3" class="rounded-circle mx-4" src="../src/img/foto-3.jpeg" title="Image 3" />
+              <p class="text-center pt-2">Your title</p>
+            </div>
+            <div>
+              <img alt="Image 4" class="rounded-circle mx-4" src="../src/img/foto-4.jpeg" title="Image 4" />
+              <p class="text-center pt-2">Your title</p>
+            </div>
+            <div>
+              <img alt="Image 5" class="rounded-circle mx-4" src="../src/img/foto-5.jpeg" title="Image 5" />
+              <p class="text-center pt-2">Your title</p>
+            </div>
+            <div>
+              <img alt="Image 6" class="rounded-circle mx-4" src="../src/img/foto-6.jpeg" title="Image 6" />
+              <p class="text-center pt-2">Your title</p>
+            </div>
+            <div>
+              <img alt="Image 7" class="rounded-circle mx-4" src="../src/img/foto-1.jpeg" title="Image 7" />
+              <p class="text-center pt-2">Your title</p>
+            </div>
+            <div>
+              <img alt="Image 8" class="rounded-circle mx-4" src="../src/img/foto-2.jpeg" title="Image 8" />
+              <p class="text-center pt-2">Your title</p>
+            </div>
+            <div>
+              <img alt="Image 9" class="rounded-circle mx-4" src="../src/img/foto-3.jpeg" title="Image 9" />
+              <p class="text-center pt-2">Your title</p>
+            </div>
+            <div>
+              <img alt="Image 10" class="rounded-circle mx-4" src="../src/img/foto-4.jpeg" title="Image 10" />
+              <p class="text-center pt-2">Your title</p>
+            </div>
+            <div>
+              <img alt="Image 11" class="rounded-circle ml-4" src="../src/img/foto-5.jpeg" title="Image 11" />
+              <p class="text-center ml-4 pt-2">Your title</p>
+            </div>
+          </div>
+        </div>
+        <button aria-label="geri" class="prev-button position-absolute border-0 rounded-circle"><i class="fa fa-angle-left"></i></button>
+        <button aria-label="ileri" class="next-button position-absolute border-0 rounded-circle"><i class="fa fa-angle-right"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <label class="page-titles">Features</label>
+    <div class="row">
+      <div class="col-lg-9 col-md-8 pr-4 mb-4">
+        <div class="row mt-3">
+          <div class="col-6">
+            <img alt="img-1" class="left-img w-100" src="../src/img/blog-1.jpeg" />
+          </div>
+          <div class="col-6">
+            <h4>Your title here</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.</p>
+            <button aria-label="read more" class="btn py-1 read-more">Read more</button>
+            <div class="bottom w-100">
+              <div class="d-flex position-absolute">
+                <i class="fa fa-comment-o my-1"></i>&nbsp;<p class=" review"> 1</p>
+              </div>
+              <div class="d-flex justify-content-end">
+                <p class="pr-3"><strong>Share</strong></p>
+                <i class="fa fa-facebook my-1 pr-3"></i>
+                <i class="fa fa-twitter my-1"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="line pt-3"></div>
+        <div class="row mt-3">
+          <div class="col-6">
+            <h4>Your title here</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.</p>
+            <button aria-label="read more" class="btn py-1 read-more">Read more</button>
+            <div class="bottom w-100">
+              <div class="d-flex position-absolute">
+                <i class="fa fa-comment-o my-1"></i>&nbsp;<p class=" review"> 1</p>
+              </div>
+              <div class="d-flex justify-content-end">
+                <p class="pr-3"><strong>Share</strong></p>
+                <i class="fa fa-facebook my-1 pr-3"></i>
+                <i class="fa fa-twitter my-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <img alt="img-2" class="left-img w-100" src="../src/img/blog-4.jpeg" />
+          </div>
+        </div>
+        <div class="line pt-3"></div>
+        <div class="row">
+          <div class="col-6">
+            <div class="cards pt-4 pr-4 pl-4">
+              <img alt="img-3" class="cards-img w-100 h-100" src="../src/img/blog-3.jpeg" />
+              <h4 class="pt-4">Your title here</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="bottom w-100">
+                <div class="d-flex position-absolute">
+                  <button aria-label="read more" class="btn py-0 read-more">Read more</button>
+                </div>
+                <div class="d-flex justify-content-end">
+                  <p class="pr-3"><strong>Share</strong></p>
+                  <i class="fa fa-facebook my-1 pr-3"></i>
+                  <i class="fa fa-twitter my-1"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="cards pr-4 pl-4 pt-4">
+              <img alt="img-4" class="cards-img w-100 h-100" src="../src/img/blog-2.jpeg" />
+              <h4 class="pt-4">Your title here</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="bottom w-100">
+                <div class="d-flex position-absolute">
+                  <button aria-label="read more" class="btn py-0 read-more">Read more</button>
+                </div>
+                <div class="d-flex justify-content-end">
+                  <p class="pr-3"><strong>Share</strong></p>
+                  <i class="fa fa-facebook my-1 pr-3"></i>
+                  <i class="fa fa-twitter my-1"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-5 h-100 p-0 right-col">
+        <div class="p-4">
+          <h4 class="position-relative d-inline pb-1 pt-3">News Letter</h4>
+          <div class="mx-0 my-2 pt-4">
+            <input class="mail-input border-0 mx-0 mb-4 w-100 p-2 text-center" placeholder="Your email address" type="email" />
+            <button aria-label="sign up" class="btn w-100">Sign Up</button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h4 class="position-relative d-inline pt-4 pb-1">Your title</h4>
+          <div class="row mx-0 my-2 pt-4 text-center">
+            <div class="col-6 pl-0 py-2">
+              <img alt="foto-1" class="rounded-circle w-75 h-75" src="../src/img/foto-1.jpeg" /><br>
+              <small>Lorem Ipsum</small>
+            </div>
+            <div class="col-6 pr-0 py-2">
+              <img alt="foto-2" class="rounded-circle w-75 h-75" src="../src/img/foto-2.jpeg" /><br>
+              <small>Lorem Ipsum</small>
+            </div>
+          </div>
+          <div class="row mx-0 pt-2 text-center">
+            <div class="col-6 pl-0 py-2">
+              <img alt="foto-3" class="rounded-circle w-75 h-75" src="../src/img/foto-3.jpeg" /><br>
+              <small>Lorem Ipsum</small>
+            </div>
+            <div class="col-6 pr-0 py-2">
+              <img alt="foto-4" class="rounded-circle w-75 h-75" src="../src/img/foto-4.jpeg" /><br>
+              <small>Lorem Ipsum</small>
+            </div>
+          </div>
+          <div class="row mx-0 pt-2 text-center">
+            <div class="col-6 pl-0 py-2">
+              <img alt="foto-5" class="rounded-circle w-75 h-75" src="../src/img/foto-5.jpeg" /><br>
+              <small>Lorem Ipsum</small>
+            </div>
+            <div class="col-6 pr-0 py-2">
+              <img alt="foto-6" class="rounded-circle w-75 h-75" src="../src/img/foto-6.jpeg" /><br>
+              <small>Lorem Ipsum</small>
+            </div>
+          </div>
+        </div>
+        <footer class="footer mt-4 p-4 h-100 w-100">
+          <h4 class="d-inline position-relative">Follow</h4>
+          <div class="my-4 w-100">
+            <i class="fa fa-facebook mr-sm-1 p-2 rounded-circle"></i>
+            <i class="fa fa-instagram mr-sm-1 p-2 rounded-circle"></i>
+            <i class="fa fa-pinterest mr-sm-1 p-2 rounded-circle"></i>
+            <i class="fa fa-twitter p-2 rounded-circle"></i>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
